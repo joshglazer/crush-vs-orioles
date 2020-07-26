@@ -1,9 +1,6 @@
 import React, { Component } from "react"
-import Header from "../components/header"
-import Footer from "../components/footer"
 import { getStandings, getPlayerProfile } from "../api/sportradar"
-
-import "../css/style.css"
+import Layout from "../components/layout"
 
 import chrisDavisImg from "../images/chris-davis.jpg"
 import oriolesLogoImg from "../images/orioles-logo.png"
@@ -36,9 +33,8 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div className="flex flex-col h-screen">
-        <Header />
-        <div className="text-center flex-grow px-4">
+      <Layout>
+        <div className="text-center">
           <div className="pt-4 pb-4">
             It's 2020 and the baseball season has finally begun. And everyone's
             wondering, which number will be higher? The amount of wins by The
@@ -92,8 +88,7 @@ export default class Home extends Component {
           </div>
           <div className="text-xs pb-4">Last Updated 7/26/2020 5:20 PM</div>
         </div>
-        <Footer />
-      </div>
+      </Layout>
     )
   }
 }
