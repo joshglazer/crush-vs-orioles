@@ -90,7 +90,7 @@ export default class Home extends Component {
               </div>
             )}
           </div>
-          <div className="text-xs pb-4">Last Updated 7/26/2020 3:53 PM</div>
+          <div className="text-xs pb-4">Last Updated 7/26/2020 5:20 PM</div>
         </div>
         <Footer />
       </div>
