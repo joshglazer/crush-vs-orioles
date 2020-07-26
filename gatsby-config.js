@@ -10,7 +10,7 @@ module.exports = {
   siteMetadata: {
     title: `Crush vs. The Orioles`,
     description: `It's 2020 and the baseball season has finally begun. And everyone's wondering, which number will be higher? The amount of wins by The Orioles, or the amount of hits by Crush Davis. Follow along below.`,
-    image: `https://crush-vs-orioles.joshglazer.com/images/SpotYouOpenGraph.png`,
+    image: `https://crush-vs-orioles.joshglazer.com/images/crush-vs-orioles-opengraph.png`,
     author: `@glazerade`,
   },
 }
