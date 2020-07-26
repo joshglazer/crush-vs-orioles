@@ -1,8 +1,9 @@
 import React from "react"
+import { FaGithub } from "react-icons/fa"
 
 export default function Footer() {
   return (
-    <footer className="bg-orange-600">
+    <footer className="bg-orioles">
       <div className="w-full md:flex justify-between p-4 md:p-8 text-sm">
         <p className="w-full md:w-1/2 text-white text-center md:text-left pb-2 md:pb-0">
           A{" "}
@@ -24,7 +25,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            {/* <FaGithub />  */}
+            <FaGithub className="inline mr-1" />
             Source Code on GitHub
           </a>
         </p>
