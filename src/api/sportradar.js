@@ -11,11 +11,8 @@ export async function getStandings() {
 }
 
 export async function getPlayerProfile() {
-  console.log("GET PLAYER")
   const url = `http://api.sportradar.us/mlb/trial/v6.6/en/players/ddfbc667-95d8-49fc-8e77-a8e4e452d820/profile.json?api_key=${key}`
   const data = await makeApiCall(url)
-  console.log(data)
-
   return data
 }
 
@@ -26,7 +23,7 @@ async function makeApiCall(url) {
     } else if (url.includes("players") && url.includes("profile")) {
       return playerProfile
     } else {
-      console.log(`${url} is not set up for debugging`)
+      console.warn(`${url} is not set up for debugging`)
     }
   }
 

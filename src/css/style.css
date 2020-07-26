@@ -1,0 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+.winner {
+    @apply border-2 border-orange-600 rounded-lg
+}
