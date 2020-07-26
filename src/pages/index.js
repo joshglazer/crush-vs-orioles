@@ -36,12 +36,14 @@ export default class Home extends Component {
 
   render() {
     return (
-      <div>
+      <div className="flex flex-col h-screen">
         <Header />
-        <div className="text-center">
-          <h2 className="text-2xl md:text-3xl pt-4 pb-0 md:pb-4">
-            Which number is higher?
-          </h2>
+        <div className="text-center flex-grow px-4">
+          <div className="pt-4 pb-4">
+            It's 2020 and the baseball season has finally begun. And everyone's
+            wondering, which number will be higher? The amount of wins by The
+            Orioles, or the amount of hits by Crush Davis. Follow along below.
+          </div>
           <div
             className={
               "inline-block p-4 mb-4 mx-8 " +
@@ -51,7 +53,7 @@ export default class Home extends Component {
                 : "")
             }
           >
-            <div className="text-lg">Crush Davis Hits?</div>
+            <div className="text-lg">Crush Davis Hits</div>
             <img
               src={chrisDavisImg}
               alt="Chris Davis"
@@ -70,7 +72,7 @@ export default class Home extends Component {
                 : "")
             }
           >
-            <div className="text-lg">Orioles Wins?</div>
+            <div className="text-lg">Orioles Wins</div>
             <img src={oriolesLogoImg} alt="Orioles" className="h-40 m-auto" />
             <div>
               Wins:
