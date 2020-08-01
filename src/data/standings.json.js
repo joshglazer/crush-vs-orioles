@@ -542,7 +542,7 @@ export const standings = {
                   loss: 1,
                   streak: "W2",
                   wild_card_back: "0.0",
-                  win: 2,
+                  win: 3,
                   win_p: 0.667,
                   c_loss: 0,
                   c_win: 0,
