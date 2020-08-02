@@ -86,7 +86,7 @@ export default class Home extends Component {
               </div>
             )}
           </div>
-          <div className="text-xs pb-4">Last Updated 8/2/2020 3:43PM EST</div>
+          <div className="text-xs pb-4">Last Updated 8/2/2020 5:56PM EST</div>
         </div>
       </Layout>
     )
