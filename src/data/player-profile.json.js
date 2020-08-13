@@ -84,7 +84,7 @@ export const playerProfile = {
                   roe: 0,
                   // Hardcoding with the real number until the API is updated with the current season's stats
                   //   h: 7,
-                  h: 5,
+                  h: 6,
                   cycle: 0,
                 },
                 runs: { total: 7 },
